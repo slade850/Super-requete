@@ -1,0 +1,22 @@
+{
+  "name": "exo-giphy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slade850/Super-requete.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slade850/Super-requete/issues"
+  },
+  "homepage": "https://github.com/slade850/Super-requete#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
