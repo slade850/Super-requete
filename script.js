@@ -24,7 +24,7 @@ btn.addEventListener('click', () => { // écoute du click sur le bouton
             val = document.getElementById(x).value; // Ont attribut la valeur de la sélection à la variable val  
         }
     })
-    const key = "21EQ57wGpPpPmELaGfFWV82MpGclZK8f"; // clé de notre api
+    const key = ""; // clé de notre api
     let choix = document.getElementById("input").value; // On récupère la recherche de l’utilisateur  
     let url = `https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${choix}&limit=25&offset=0&rating=G&lang=fr`// On crée une variable contenant l’url de l’api avec la clé et la recherche de l’utilisateur 
     switch(val) {  // On teste la valeur de la variable val, en fonction du choix de l’utilisateur la requête sera effectuée en XMLhttp, fetch, axios ou jQuery 
